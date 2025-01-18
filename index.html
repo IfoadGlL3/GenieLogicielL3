@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#accueil">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#accueil">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#apropos">À Propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolios">Portfolios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="accueil" class="hero d-flex align-items-center text-center text-white">
+            <div class="container">
+                <h1 class="display-2 fw-bold mb-3">Bienvenue sur Notre Portfolio</h1>
+                <p class="lead">Développeurs Web Créatifs</p>
+            </div>
+        </section>
+
+        <section id="apropos" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">À Propos de Nous</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body p-5">
+                                <div class="row align-items-center">
+                                    <div class="col-md-4 mb-4 mb-md-0">
+                                        <div class="text-center">
+                                            <img src="assets/images/Logo.png" class="rounded-circle img-fluid mb-3 about-image" alt="Photo de l'équipe">
+                                            <h3 class="h4 mb-3">Étudiants IFOAD</h3>
+                                            <p class="text-muted">Licence 3 Sciences Informatiques Appliquées</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="about-text">
+                                            <p class="lead mb-4">Nous sommes un groupe d'étudiants en troisième année de licence en Sciences Informatiques Appliquées à l'Institut de Formation Ouverte et à Distance (IFOAD).</p>
+                                            <p>Passionnés par les nouvelles technologies et l'innovation, nous mettons en pratique nos compétences en informatique pour résoudre des problématiques concrètes et créer des solutions numériques efficaces.</p>
+                                            <p>Notre formation à distance nous permet d'allier autonomie, rigueur et flexibilité, tout en développant des compétences variées dans des domaines tels que la programmation, le développement web, l'intelligence artificielle et les systèmes d'information.</p>
+                                            <p class="mb-0">À travers nos projets, nous visons à appliquer les connaissances théoriques acquises et à nous préparer aux défis professionnels du secteur de l'informatique.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolios" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Nos Portfolios Individuels</h2>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-5">
+                        <div class="card h-100 text-center">
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <h3 class="card-title mb-4">Portfolio de Hyacinthe S Compaoré</h3>
+                                    <p class="card-text">Découvrez mes projets personnels et professionnels...</p>
+                                </div>
+                                <a href="membres/hyacinthe/index.html" class="btn btn-primary btn-lg mt-4">Voir mon Portfolio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="card h-100 text-center">
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <h3 class="card-title mb-4">Portfolio de Membre 2</h3>
+                                    <p class="card-text">Découvrez mes projets personnels et professionnels...</p>
+                                </div>
+                                <a href="#" class="btn btn-primary btn-lg mt-4">Voir mon Portfolio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Contactez-nous</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Nom" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Envoyer</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Notre Portfolio. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
